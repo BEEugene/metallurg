@@ -1,6 +1,6 @@
 # METALLURG
  
-Распознавание панелей приборов производственного оборудования.
+A simple computer vision prototype to read meter displays
 
 ### Navigation
 - [Requirements](#requirements)
@@ -14,17 +14,17 @@
 - `ffmpeg`
 
 ### Presets
-- устанавливаем **ffmpeg** `sudo apt-get install ffmpeg` (**Linux only**)
-- устанавливаем зависимости для **python3** `pip3 install -r requirements.txt`
+- install **ffmpeg** `sudo apt-get install ffmpeg` (**Linux only**)
+- install **python3 dependencies** `pip3 install -r requirements.txt`
 
 ### Installing
-Заходим в файл `config.ini` и указываем имена файлов для видео и для csv-результата
+Edit `config.ini` file to change video and result filenames
 
 ### Running
-Запускаем в консоли `python3 main.py`
+Run in terminal `python3 main.py`
 
 ### Example
-Кадр из видео:
+Frame from video:
 ![Frame from video](files/example.png)
 **console output** and **result.csv**:
 ```
