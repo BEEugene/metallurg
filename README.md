@@ -24,6 +24,7 @@
 Запускаем в консоли `python3 main.py`
 
 ### Example
+**one frame**:
 ![Frame from video](files/example.png)
 **console output** and **result.csv**:
 ```
