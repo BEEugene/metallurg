@@ -18,7 +18,7 @@ A simple computer vision prototype to read meter displays
 - install **python3 dependencies** `pip3 install -r requirements.txt`
 
 ### Installing
-Edit `config.ini` file to change video and result filenames
+Edit `config.ini` file to change [video](files/video_example.avi) and [result](result.csv) filenames
 
 ### Running
 Run in terminal `python3 main.py`
